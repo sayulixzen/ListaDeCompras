@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width: 800px)" href="style.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Gloock&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="conteiner">
+        <div style="text-align:center">
+            <h1>Lista de Compras Interativa</h1>
+
+            <label for="nomeProduto">Nome do produto:</label>
+            <input type="text" id="nomeProduto" placeholder="Digite aqui">
+            <br><br>
+        
+            <label for="quantidadeProduto">Quantidade:</label>
+            <input type="number" id="quantidadeProduto" min="1" placeholder="Digite aqui">
+            <br><br>
+        
+            <button onclick="adicionarProduto()">Adicionar Item</button>
+            <button onclick="limparLista()">Limpar Lista</button>
+
+            <ul id="listaProdutos"></ul>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
