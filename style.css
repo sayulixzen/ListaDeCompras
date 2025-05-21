@@ -41,7 +41,7 @@
 }
 
 .menu-topo nav ul li a:hover {
-  color: rgb(69, 190, 69);
+  color:  rgb(96, 231, 96);
 }
 
 .menu-lista {
@@ -71,7 +71,7 @@
   bottom: 0;
   height: 3px;
   width: 100%;
-  background-color: rgb(69, 190, 69);
+  background-color: rgb(96, 231, 96);
   border-radius: 2px;
   transform: scaleX(0);
   transform-origin: left;
@@ -101,8 +101,6 @@
   font-family: 'Oswald', sans-serif;
   padding: 8px;
 }
-
-
 
 body {
   padding-top: 70px;
@@ -172,7 +170,6 @@ input {
   background-color: #fff;
   border-radius: 10px;
   padding: 12px;
-  
   font-size: 16px;
   width: 80%;
   border: 1px solid #ddd;
