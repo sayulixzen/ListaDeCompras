@@ -14,16 +14,30 @@
 </head>
 
 <body>
+<header class="menu-topo">
+  <nav>
+    <ul class="menu-lista">
+      <li class="icones">
+        <a href="https://github.com/sayulixzen">
+          <img src="fotos/github.png" alt="github" width="50" height="50">
+        </a>
+        <a href="mailto:vitoriagaieskiyt@gmail.com">
+          <img src="fotos/gmail.png" alt="gmail" width="50" height="50">
+        </a>
+      </li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+
     <div class="conteiner">
         <div style="text-align:center">
             <h1>Lista de Compras Interativa</h1>
 
-            <label for="nomeProduto">Nome do produto:</label>
-            <input type="text" id="nomeProduto" placeholder="Digite aqui">
+            <input type="text" id="nomeProduto" placeholder="Nome do produto">
             <br><br>
-        
-            <label for="quantidadeProduto">Quantidade:</label>
-            <input type="number" id="quantidadeProduto" min="1" placeholder="Digite aqui">
+            <input type="number" id="quantidadeProduto" min="1" placeholder="Quantidade do produto">
             <br><br>
         
             <button onclick="adicionarProduto()">Adicionar Item</button>
@@ -31,6 +45,10 @@
 
             <ul id="listaProdutos"></ul>
         </div>
+    </div>
+
+    <div class="contatos">
+
     </div>
 
     <script src="script.js" defer></script>

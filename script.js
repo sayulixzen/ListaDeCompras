@@ -6,6 +6,11 @@ function adicionarProduto() {
         const lista = document.getElementById("listaProdutos");
         const item = document.createElement("li");
         item.textContent = `${nome} - ${quantidade} unidade(s)`;
+
+        item.addEventListener("click", function () {
+            item.classList.toggle("riscado");
+        });
+
         lista.appendChild(item);
 
         document.getElementById("nomeProduto").value = "";
