@@ -2,57 +2,52 @@
 <html lang="PT br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de compras</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="(max-width: 800px)" href="style.css" />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Gloock&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de compras</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="(max-width: 800px)" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Gloock&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-<header class="menu-topo">
-  <nav>
-    <ul class="menu-lista">
-      <li class="icones">
-        <a href="https://github.com/sayulixzen">
-          <img src="fotos/github.png" alt="github" width="50" height="50">
-        </a>
-        <a href="mailto:vitoriagaieskiyt@gmail.com">
-          <img src="fotos/gmail.png" alt="gmail" width="50" height="50">
-        </a>
-      </li>
-      <li><a href="#">Contato</a></li>
-    </ul>
-  </nav>
-</header>
+  <header class="menu-topo">
+    <nav>
+      <ul class="menu-lista">
+        <li class="icones">
+          <a href="https://github.com/sayulixzen">
+            <img src="fotos/github.png" alt="github" width="50" height="50">
+          </a>
+          <a href="mailto:vitoriagaieskiyt@gmail.com">
+            <img src="fotos/gmail.png" alt="gmail" width="50" height="50">
+          </a>
+        </li>
+        <li><a href="#">Veja mais</a></li>
+      </ul>
+    </nav>
+  </header>
 
-
-    <div class="conteiner">
-        <div style="text-align:center">
-            <h1>Lista de Compras Interativa</h1>
-
-            <input type="text" id="nomeProduto" placeholder="Nome do produto">
-            <br><br>
-            <input type="number" id="quantidadeProduto" min="1" placeholder="Quantidade do produto">
-            <br><br>
-        
-            <button onclick="adicionarProduto()">Adicionar Item</button>
-            <button onclick="limparLista()">Limpar Lista</button>
-
-            <ul id="listaProdutos"></ul>
-        </div>
+  <div class="conteiner">
+    <div style="text-align:center">
+      <h1>Lista de Compras Interativa</h1>
+      <input type="text" id="nomeProduto" placeholder="Nome do produto">
+      <br><br>
+      <input type="number" id="quantidadeProduto" min="1" placeholder="Quantidade do produto">
+      <br><br>
+      <button onclick="adicionarProduto()">Adicionar Item</button>
+      <button onclick="limparLista()">Limpar Lista</button>
+      <ul id="listaProdutos"></ul>
     </div>
+  </div>
 
-    <div class="contatos">
+  <div class="vejamais">
+    <!--Vai ter mais informações aqui futuramente-->
+  </div>
 
-    </div>
-
-    <script src="script.js" defer></script>
-
+  <script src="script.js" defer></script>
 </body>
 
 </html>
